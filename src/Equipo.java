@@ -2,9 +2,11 @@ public class Equipo {
     private String nombre;
     private String descripcion;
 
-    public Equipo(String nombre, String descripcion){
+    public Equipo(String nombre){
         this.nombre=nombre;
-        this.nombre=descripcion;
     }
 
+    public String getNombre() {
+        return nombre;
+    }
 }
